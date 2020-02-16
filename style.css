@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#back {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("img/yellow_pattern.png"), url("img/text.png"), url("img/blue_pattern.png");
+  background-blend-mode: multiply;
+
+  position: relative;
+}
+
+#uloMulaSaBTS {
+  height: 20rem;
+  /* width: 10rem;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("img/head.png"); */
+  mix-blend-mode: multiply;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/* UTILITIES */
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
